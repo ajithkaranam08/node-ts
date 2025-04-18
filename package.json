@@ -1,16 +1,19 @@
 {
-  "name": "sequelize-ts",
-  "version": "1.0.0",
+  "name": "create-node-sequelize-ts",
+  "version": "1.0.3",
   "main": "src/server.ts",
+  "author": "ajithkaranam",
+  "license": "MIT",
+  "description": "Node js + Sequelize + TypeScript + MySQL Production ready boilerplate",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/server.ts",
     "prod": "tsc && node dist/server.js"
   },
+  "bin": {
+    "create-node-sequelize-ts": "cli.js"
+  },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "argon2": "^0.41.1",
     "cors": "^2.8.5",
